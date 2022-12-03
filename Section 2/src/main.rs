@@ -1,4 +1,6 @@
-fn question1(val: Vec) {
+use std::array;
+
+fn question1(val: Vec<T>) {
     if val[0] == 1 {
         true
     } else {
